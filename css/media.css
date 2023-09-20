@@ -1,0 +1,529 @@
+/* mobile view */
+@media(min-width:320px){
+	.container{
+		width:95%;
+		margin:auto;
+	}
+	/* head section */
+	.head-nav{
+		width:50%;
+		display:none;
+	}
+	.head-menubar{
+		display:block;
+	}
+	/* baner section */
+	#home-section{
+		height:200vh;	
+	}
+	.home-title h1{
+		font-size:2rem;
+	}
+	.home-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.home-col{
+		width:100%;
+		padding:20px 0;
+	}
+	.home-content{
+		width:100%;
+	}
+	
+	/* about section */
+	#about-section{
+		height:150vh;
+	}
+	.about-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.about-col{
+		width:100%;
+	}
+	
+	/* bottom about section */
+	#bottom-about-section{
+		height:140vh;
+	}
+	.bottom-about-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.bottom-about-col{
+		width:100%;
+		padding:20px;
+	}
+	
+	/*service section*/
+	#service-section{
+		height:320vh;
+	}
+	.service-col{
+		width:100%;
+		
+	}
+	
+	/*action-section*/
+	#action-section{
+		height:50vh;
+	}
+	
+	/* portfolio section*/
+	#portfolio-section{
+		height:460vh;
+	}
+	.porfo-row-menu{
+		width:100%;
+	}
+	.porfo-img-col{
+		width:100%;
+	}
+	
+	#porfo-mid-sec{
+		height:180vh;
+	}
+	.porfo-mid-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.porfo-mid-col-left{
+		width:100%;
+	}
+	.porfo-mid-col-right{
+		width:100%;
+	}
+	
+	.porfo-mid-rcol{
+		width:100%;
+	}
+	
+	/* card section */
+	#team-sec{
+		height:300vh;
+	}
+	.team-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.team-col{
+		width:100%;
+	}
+	
+	/* contect section */
+	
+	
+	#contect-sec{
+		height:180vh;
+	}
+	.contect-row{
+		display:flex;
+		flex-wrap:wrap;
+		padding-top:40px;
+	}
+	.contect-col-one{
+		width:100%;
+	}
+	.contect-col-two{
+		width:100%;
+		
+	}
+	
+	.name-mail{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.text-name{
+		width:100%;
+	}
+	.text-email{
+		width:100%;
+		padding-top:20px;
+	}
+	
+	/*  footer-section */   
+	
+	#footer-section{
+		height:155vh;
+	}
+	.footer-row{
+		padding-top:50px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.footer-col{
+		width:100%;
+	}
+	.footer-link-col{
+		padding-top:20px;
+		width:100%;
+	}
+	.footer-service-col{
+		padding-top:20px;
+		width:100%;
+	}
+	.footer-letter-col{
+		padding-top:20px;
+		width:100%;
+	}
+	
+	/* bottom-footer */
+	#bottom-footer{
+		height:20vh;
+	}
+
+}
+/* ================================================================================================================== */
+/* ipad view */
+@media(min-width:760px){
+	.container{
+		width:90%;
+		margin:auto;
+	}
+	/* head section */
+	.head-nav{
+		width:50%;
+		display:none;
+	}
+	.head-menubar{
+		display:block;
+	}
+	/* baner section */
+	#home-section{
+		height:100vh;	
+	}
+	.home-title h1{
+		font-size:3.5rem;
+	}
+	.home-row{
+		display:flex;
+		justify-content:space-evenly;
+		padding-bottom:55%;
+	}
+	.home-content{
+		padding-top:20%;
+		width:80%;
+	}
+	.home-col{
+		width:33.33%;
+		padding:20px;
+	}
+	
+	/* about section */
+	#about-section{
+		height:90vh;
+	}
+	.about-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.about-col{
+		width:100%;
+	}
+	
+	/* bottom about section */
+	#bottom-about-section{
+		height:90vh;
+	}
+	.bottom-about-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.bottom-about-col{
+		width:100%;
+		padding:20px;
+	}
+	
+	
+	/*service section*/
+	#service-section{
+		height:100vh;
+	}
+	.service-col{
+		width:50%;
+	}
+	
+	/*action-section*/
+	#action-section{
+		height:30vh;
+	}
+	
+	/* portfolio section*/
+	#portfolio-section{
+		height:500vh;
+	}
+	.porfo-row-menu{
+		width:80%;
+	}
+	.porfo-img-col{
+		width:100%;
+	}
+	
+	#porfo-mid-sec{
+		height:100vh;
+	}
+	.porfo-mid-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.porfo-mid-col-left{
+		width:100%;
+	}
+	.porfo-mid-col-right{
+		width:100%;
+	}
+	
+	.porfo-mid-rcol{
+		width:50%;
+	}
+	
+	/* card section */
+	#team-sec{
+		height:100vh;
+	}
+	.team-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.team-col{
+		width:50%;
+	}
+	
+	/* contect section */
+	
+	
+	#contect-sec{
+		height:120vh;
+	}
+	.contect-row{
+		display:flex;
+		flex-wrap:wrap;
+		padding-top:40px;
+	}
+	.contect-col-one{
+		width:100%;
+	}
+	.contect-col-two{
+		width:100%;
+		
+	}
+	
+	.name-mail{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.text-name{
+		width:50%;
+	}
+	.text-email{
+		width:50%;
+		padding-top:0;
+	}
+	
+	/*  footer-section */   
+	
+	#footer-section{
+		height:55vh;
+	}
+	.footer-row{
+		padding-top:50px;
+		display:flex;
+	}
+	.footer-col{
+		width:50%;
+	}
+	.footer-link-col{
+		padding-top:0;
+		width:50%;
+	}
+	.footer-service-col{
+		padding-top:20px;
+		width:50%;
+	}
+	.footer-letter-col{
+		padding-top:20px;
+		width:50%;
+	}
+	
+	/* bottom-footer */
+	#bottom-footer{
+		height:10vh;
+	}
+
+}
+/* ================================================================================================================== */
+/* labtop view */
+@media(min-width:960px){
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	/* head section */
+	.head-nav{
+		width:60%;
+		display:block;
+	}
+	.head-menubar{
+		display:none;
+	}
+	
+	/* baner section */
+	#home-section{
+		height:100vh;	
+	}
+	.home-title h1{
+		font-size:3.5rem;
+	}
+	.home-row{
+		display:flex;
+		justify-content:space-evenly;
+		padding-bottom:0%;
+	}
+	.home-col{
+		width:16%;
+		padding:70px 0;
+	}
+	.home-content{
+		padding-top:0%;
+		width:50%;
+	}
+	
+	/* about section */
+	#about-section{
+		height:90vh;
+	}
+	.about-row{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.about-col{
+		width:50%;
+	}
+	/* bottom about section */
+	#bottom-about-section{
+		height:80vh;
+	}
+	.bottom-about-row{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.bottom-about-col{
+		width:50%;
+		padding:20px;
+	}
+	
+	/*service section*/
+	#service-section{
+		height:140vh;
+	}
+	.service-col{
+		width:33.33%;
+	}
+	
+	/*action-section*/
+	#action-section{
+		height:50vh;
+	}
+	
+	/* portfolio section*/
+	#portfolio-section{
+		height:210vh;
+	}
+	.porfo-row-menu{
+		width:50%;
+	}
+	.porfo-img-col{
+		width:33.33%;
+	}
+	
+	#porfo-mid-sec{
+		height:80vh;
+	}
+	.porfo-mid-row{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.porfo-mid-col-left{
+		width:40%;
+	}
+	.porfo-mid-col-right{
+		width:60%;
+	}
+	
+	.porfo-mid-rcol{
+		width:50%;
+	}
+	
+	/* card section */
+	#team-sec{
+		height:90vh;
+	}
+	.team-row{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.team-col{
+		width:25%;
+	}
+	
+	/* contect section */
+	
+	
+	#contect-sec{
+		height:150vh;
+	}
+	.contect-row{
+		display:flex;
+		flex-wrap:nowrap;
+		padding-top:40px;
+	}
+	.contect-col-one{
+		width:40%;
+	}
+	.contect-col-two{
+		width:60%;
+		
+	}
+	
+	.name-mail{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.text-name{
+		width:50%;
+	}
+	.text-email{
+		width:50%;
+	}
+	
+	/*  footer-section */   
+	
+	#footer-section{
+		height:55vh;
+	}
+	.footer-row{
+		padding-top:50px;
+		display:flex;
+	}
+	.footer-col{
+		width:25%;
+	}
+	.footer-link-col{
+		padding-top:0;
+		width:17%;
+	}
+	.footer-service-col{
+		padding-top:0;
+		width:25%;
+	}
+	.footer-letter-col{
+		padding-top:0;
+		width:33%;
+	}
+	
+	/* bottom-footer */
+	#bottom-footer{
+		height:20vh;
+	}
+}
